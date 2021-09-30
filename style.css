@@ -1,0 +1,83 @@
+#nav{
+    display: grid;
+   grid-template-columns: 2fr 2fr 2fr;
+   /* margin: 2rem auto; */
+   grid-gap: 2rem;
+   border: 2px solid red;
+   align-items: center;
+   justify-items: center;
+   font-size: 2rem;
+}
+.logo img{
+    display: block;
+    max-height: 10%;
+    max-width: 50%;
+}
+
+.menu ul{
+    display: flex;
+    /* position: relative; */
+    /* margin: auto; */
+    padding: 10px 10px;
+    
+
+   
+}
+.menu-items{
+    list-style-type: none;
+    /* margin: auto; */
+}
+.menu-items:hover{
+   text-decoration:underline;
+    /* margin: auto; */
+}
+.menu-items:visited{
+    text-decoration: underline;
+    color: rgb(202, 202, 124);
+}
+
+.menu-items a{
+    text-decoration: none;
+    color: black;
+    /* margin: auto; */
+    
+    margin-right: 3rem;
+}
+.social{
+    display: flex;
+   
+}
+.social img{
+    display: block;
+    margin-right: 2rem;
+    /* margin: auto; */
+    
+}
+#body{
+    display: block;
+    /* border: solid 2px black; */
+    /* height: 700vh;
+    width: 100vw; */
+    text-align: center;
+
+
+}
+#translatebtn{
+    display: block;
+    margin: auto;
+    height: 2rem;
+    margin-top: 1rem;
+    background-color: rgb(224, 170, 68);
+    font-weight: bolder;
+    text-align: center;
+    
+}
+textarea{
+    width: 50vw;
+    height: fit-content;
+}
+h1{
+    border: solid 2px black;
+    color: aqua;
+    display: block;
+}
