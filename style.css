@@ -46,13 +46,14 @@
 .social{
     display: flex;
    
-}
-.social img{
+  }
+  .social img{
     display: block;
     margin-right: 2rem;
+    height: 1.5rem;
     /* margin: auto; */
     
-}
+  }
 #body{
     display: block;
     /* border: solid 2px black; */
